@@ -112,7 +112,7 @@
                                    Grid.Row="3"
                                    Grid.Column="2"
                                    Style="{Binding ElementName=ControlRoot, Path=ButtonStyle}"
-                                   Background="{ThemeResource AppBackgroundAltMediumLowBrush}"
+                                   Background="Transparent"
                                    common:KeyboardShortcutManager.Character="."
                                    AutomationProperties.AutomationId="decimalSeparatorButton"
                                    ButtonId="Decimal"

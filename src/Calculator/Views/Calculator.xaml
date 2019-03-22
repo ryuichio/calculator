@@ -625,6 +625,12 @@
                                Height="308*"
                                MinHeight="0"/>
             </Grid.RowDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="https://i.ytimg.com/vi/E0rnWgwUcs4/maxresdefault.jpg" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <Rectangle Grid.Row="0"
+                       Grid.RowSpan="6"
+                       Fill="#7F000000"/>
 
             <controls:CalculationResult x:Name="Results"
                                         x:Uid="CalculatorResults"

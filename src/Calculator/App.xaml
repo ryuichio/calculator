@@ -135,7 +135,7 @@
                 <Setter Property="Padding" Value="0"/>
                 <Setter Property="MinHeight" Value="12"/>
                 <Setter Property="Margin" Value="1"/>
-                <Setter Property="Background" Value="{ThemeResource SystemControlBackgroundAltMediumHighBrush}"/>
+                <Setter Property="Background" Value="Transparent"/>
                 <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
                 <Setter Property="HoverBackground" Value="{ThemeResource AppControlHoverButtonFaceBrush}"/>
                 <Setter Property="HoverForeground" Value="{ThemeResource SystemControlHighlightAltBaseHighBrush}"/>
@@ -242,7 +242,7 @@
             <Style x:Key="OperatorButtonStyle"
                    BasedOn="{StaticResource CalcButtonStyle}"
                    TargetType="Controls:CalculatorButton">
-                <Setter Property="Background" Value="{ThemeResource AppBackgroundAltMediumLowBrush}"/>
+                <Setter Property="Background" Value="Transparent"/>
                 <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
                 <Setter Property="FontSize" Value="{StaticResource CalcOperatorCaptionSize}"/>
             </Style>
@@ -736,7 +736,7 @@
 
             <Style x:Key="CaptionToggleButtonStyle" TargetType="ToggleButton">
                 <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
-                <Setter Property="Background" Value="{ThemeResource AppBackgroundAltMediumLowBrush}"/>
+                <Setter Property="Background" Value="Transparent"/>
                 <Setter Property="BorderThickness" Value="1"/>
                 <Setter Property="Padding" Value="0"/>
                 <Setter Property="Margin" Value="1"/>
